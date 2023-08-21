@@ -1,0 +1,21 @@
+{
+  "name": "darkpinktheme",
+  "displayName": "DarkPinkTheme",
+  "description": "The cutest dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkPinkTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/DarkPinkTheme-color-theme.json"
+      }
+    ]
+  }
+}
